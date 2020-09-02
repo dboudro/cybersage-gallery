@@ -1,0 +1,25 @@
+{
+  "name": "cybersage-gallery",
+  "version": "1.0.0",
+  "description": "A collection of beautiful websites",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dboudro/cybersage-gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dboudro/cybersage-gallery/issues"
+  },
+  "homepage": "https://github.com/dboudro/cybersage-gallery#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.7.6"
+  }
+}
