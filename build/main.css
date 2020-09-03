@@ -1,0 +1,68 @@
+/*
+  "50": "#e7ecfe",
+  "100": "#bac7f7",
+  "200": "#94a4ea",
+  "300": "#7b87d1",
+  "400": "#5d68bb",
+  "500": "#444ea2",
+  "600": "#2e3684",
+  "700": "#151b6b",
+  "800": "#080b45",
+  "900": "#010218"
+   */
+
+a {
+  color: #2e3684;
+}
+
+a:hover {
+  color: #7b87d1;
+}
+
+.navigation  {
+}
+
+.navigation li {
+  display: inline-block;
+  padding-right: 80px;
+}
+
+.navigation li a {
+  text-transform: uppercase;
+  color: #444ea2;
+}
+
+.navigation li a:hover {
+  color: #7b87d1;
+}
+
+h1 {
+  font-size: 4.4em;
+  font-family: din-2014;
+  font-weight: 700;
+  color: #080b45;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #7b87d1;
+  font-family: din-2014;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.7em;
+  color: 7b87d1;
+  font-family: din-2014;
+  font-weight: 700;
+}
+
+p {
+  color: 7b87d1;
+  font-family: Helvetica Neue, sans-serif;
+  font-weight: 300;
+}
+
+
+
+
