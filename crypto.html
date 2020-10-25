@@ -13,24 +13,10 @@
 		<link rel="icon" href="img/ajna.png" type="image/x-icon" />
 		<script src="https://kit.fontawesome.com/78ce75f45f.js" crossorigin="anonymous"></script>
 	</head>
-	<body class="p-10">
+	<body class="p-10 ">
 		<div class="main-container block" style="height: 70vh;">
-		<h1 class="pt-10"> Beautiful websites </h1> 
 
-
-<ul>
-	<li><h3><a href="https://miners.hummingbot.io/settings" target="_blank" rel="nofollow">Hummingbot</a> </li>
-
-
-			
-
-
-
-		
-
-			
-			
-</ul>
+			<nft-card class="bg-black border border-orange-300 rounded-lg" contractAddress="0xd07dc4262bcdbf85190c01c996b4c06a461d2430" tokenId="8196"> </nft-card> <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
 </div>
 <hr class="w-64">
 
@@ -38,4 +24,20 @@
 <a href="https://github.com/dboudro" target="_blank" rel="nofollow" ><i class="fab fa-github text-black text-3xl"></i>
 
 	</body>
+
+	<script>
+		const data = null;
+
+const xhr = new XMLHttpRequest();
+
+xhr.addEventListener("readystatechange", function () {
+  if (this.readyState === this.DONE) {
+    console.log(this.responseText);
+  }
+});
+
+xhr.open("GET", "https://api.opensea.io/api/v1/assets?owner=0x92b406851390541F445B7C697014133d4B5BfcE3&order_direction=desc&offset=0&limit=20");
+console.log(data)
+xhr.send(data);
+	</script>
 	</html>
